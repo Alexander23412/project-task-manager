@@ -1,0 +1,165 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "name": "Марія Савченко",
+      "role": "Developer"
+    },
+    {
+      "id": 2,
+      "name": "Наталія Шевченко",
+      "role": "Manager"
+    },
+    {
+      "id": 3,
+      "name": "Максим Лисенко",
+      "role": "Manager"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Проєкт 001 «Альфа»",
+      "start": "2025-02-23",
+      "end": "2026-10-04",
+      "items": [
+        {
+          "id": 1,
+          "title": "Оновити документацію №1",
+          "type": "Task",
+          "assignee_id": 3,
+          "priority": "low",
+          "status": "nope",
+          "deadline": "2025-11-22",
+          "estimate_hours": 15
+        },
+        {
+          "id": 2,
+          "title": "Підготувати інтерфейс №2",
+          "type": "Task",
+          "assignee_id": 1,
+          "priority": "low",
+          "status": "todo",
+          "deadline": "2026-08-31",
+          "estimate_hours": 1
+        },
+        {
+          "id": 3,
+          "title": "Випустити реліз №3",
+          "type": "Milestone",
+          "assignee_id": 2,
+          "priority": "high",
+          "status": "todo",
+          "deadline": "2025-10-08",
+          "estimate_hours": 29
+        },
+        {
+          "id": 4,
+          "title": "Здати прототип №4",
+          "type": "Milestone",
+          "assignee_id": 1,
+          "priority": "high",
+          "status": "todo",
+          "deadline": "2026-06-08",
+          "estimate_hours": 19
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Проєкт 002 «Вершина»",
+      "start": "2025-04-17",
+      "end": "2027-07-20",
+      "items": [
+        {
+          "id": 5,
+          "title": "Завершити реліз №1",
+          "type": "Milestone",
+          "assignee_id": 3,
+          "priority": "high",
+          "status": "done",
+          "deadline": "2025-08-18",
+          "estimate_hours": 22
+        },
+        {
+          "id": 6,
+          "title": "Випустити реліз №2",
+          "type": "Milestone",
+          "assignee_id": 2,
+          "priority": "medium",
+          "status": "in_progress",
+          "deadline": "2026-09-10",
+          "estimate_hours": 33
+        },
+        {
+          "id": 7,
+          "title": "Підготувати документацію №3",
+          "type": "Task",
+          "assignee_id": 1,
+          "priority": "high",
+          "status": "done",
+          "deadline": "2026-06-15",
+          "estimate_hours": 12
+        },
+        {
+          "id": 8,
+          "title": "Описати модуль №4",
+          "type": "Task",
+          "assignee_id": 2,
+          "priority": "high",
+          "status": "in_progress",
+          "deadline": "2027-06-23",
+          "estimate_hours": 11
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Проєкт 003 «Гамма»",
+      "start": "2025-04-05",
+      "end": "2027-06-04",
+      "items": [
+        {
+          "id": 9,
+          "title": "Локалізувати збій №1",
+          "type": "Bug",
+          "assignee_id": 2,
+          "priority": "high",
+          "status": "done",
+          "deadline": "2026-12-25",
+          "estimate_hours": 38
+        },
+        {
+          "id": 10,
+          "title": "Налаштувати звіт №2",
+          "type": "Task",
+          "assignee_id": 3,
+          "priority": "low",
+          "status": "done",
+          "deadline": "2027-06-03",
+          "estimate_hours": 13
+        },
+        {
+          "id": 11,
+          "title": "Розробити звіт №3",
+          "type": "Task",
+          "assignee_id": 2,
+          "priority": "high",
+          "status": "todo",
+          "deadline": "2026-11-17",
+          "estimate_hours": 23
+        },
+        {
+          "id": 12,
+          "title": "Описати сервіс №4",
+          "type": "Task",
+          "assignee_id": 3,
+          "priority": "high",
+          "status": "todo",
+          "deadline": "2027-05-03",
+          "estimate_hours": 33
+        }
+      ]
+    }
+  ]
+}

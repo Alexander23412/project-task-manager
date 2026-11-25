@@ -1,0 +1,19 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "name": "Марія Савченко",
+      "role": "Developer"
+    },
+    {
+      "id": 2,
+      "name": "Наталія Шевченко",
+      "role": "Manager"
+    },
+    {
+      "id": 3,
+      "name": "Максим Лисенко",
+      "role": "Manager"
+    }
+  ]
+}

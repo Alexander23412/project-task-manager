@@ -1,0 +1,86 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "name": "Марія Савченко",
+      "role": "Developer"
+    },
+    {
+      "id": 2,
+      "name": "Наталія Шевченко",
+      "role": "Manager"
+    },
+    {
+      "id": 3,
+      "name": "Максим Лисенко",
+      "role": "Manager"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Проєкт 001 «Альфа»",
+      "start": "2025-02-23",
+      "end": "2026-10-04",
+      "items": [
+        {
+          "id": 1,
+          "title": "Оновити документацію №1",
+          "type": "Task",
+          "assignee_id": 3,
+          "priority": "low",
+          "status": "done",
+          "deadline": "2025-11-22",
+          "estimate_hours": 15
+        },
+        {
+          "id": 2,
+          "title": "Підготувати інтерфейс №2",
+          "type": "Task",
+          "assignee_id": 1,
+          "priority": "low",
+          "status": "todo",
+          "deadline": "2026-08-31",
+          "estimate_hours": 1
+        },
+        {
+          "id": 3,
+          "title": "Випустити реліз №3",
+          "type": "Milestone",
+          "assignee_id": 2,
+          "priority": "high",
+          "status": "todo",
+          "deadline": "2025-10-08",
+          "estimate_hours": 29
+        },
+        {
+          "id": 4,
+          "title": "Здати прототип №4",
+          "type": "Milestone",
+          "assignee_id": 1,
+          "priority": "high",
+          "status": "todo",
+          "deadline": "2026-06-08",
+          "estimate_hours": 19
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Проєкт 002 «Вершина»",
+      "start": "2025-04-17",
+      "end": "2027-07-20",
+      "items": [
+        {
+          "id": 5,
+          "title": "Завершити реліз №1",
+          "type": "Milestone",
+          "assignee_id": 3,
+          "priority": "high",
+          "status": "done",
+          "deadline": "2025-08-18",
+          "estimate_hours": 22
+        },
+        {
+          "id": 6,
+          "title": "Випустити ре

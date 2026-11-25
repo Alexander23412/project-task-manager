@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.vscode/
+tasks.log
+*.log
+data/big.json
+data/projects_large.json
+data/projects_100x100.json
+data/projects_single.json
+data/projects.backup.json
